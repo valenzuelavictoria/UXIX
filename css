@@ -1,1 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background: #794470;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background: #5b2f5c;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px #a4a4a4;
+    border-bottom-style: solid ;
+    border-bottom-color: #585858;
+    border-bottom-width: 5px;
+}
+
+#encabezado{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    border: 0px solid #000;
+    font-size:xx-large;
+}
+
+#logo{
+    width: 30%;
+    height: auto;overflow: hidden;
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#menu{
+    width: 60%;
+    height: 30px;
+    float: right;
+    border: 0px solid #5b2f5c;
+    margin-top: 57px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#menu ul li .enlace{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#menu ul li .enlace:hover{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#menu ul li .active-menu{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px
+}
+
+/*--------------------contenido principal--------------------*/
+
+#principal{
+    width: 80%;
+    height: auto; overflow: hidden;
+    border: 1px solid;
+    margin: 10px auto;
+}
+
+#publicaciones{
+    width: 70%;
+    height: auto;overflow: hidden;
+    border: 1px solid rgb(102, 99, 99);
+    margin-top: 10px auto;
+}
+
+.pos{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+    margin:30%;
+}
+
+.pos1{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+
+.pos2{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+
+.pos3{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+
+.pos4{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    margin-bottom: 25px;
+}
+
+.enlace-post{
+    text-decoration: none;
+}
+
+#publicaciones a .titulo-post{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#publicaciones a .titulo-post-post{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#publicaciones a .titulo-post-post:hover{
+    text-decoration: underline;
+}
+
+#publicaciones a .titulo-post:hover{
+    text-decoration: underline;
+}
+
+#publicaciones a .img-post{
+    width: 150px;
+    height: 100%;
+    float: left;
+    margin-top: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#publicaciones .datos-publicaciones{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0489b1;
+}
+
+#publicaciones .parrafo-post{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #848484;
+    padding: 5px;
+}
+
+#publicaciones .parrafo-post-post{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #d8d4d4;
+    padding: 5px;
+    text-align: center;
+}
+
+#publicaciones .leer-mas{
+    background: #0489b1;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#publicaciones .leer-mas hover{
+    background: #089a87;
+    color: #fff;
+}
+
+#publicaciones .num-comentarios{
+    background: #0b3b39;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#publicacion .enlace-paginacion{
+    text-decoration: none;
+    color: #0489b1;
+}
+
+#publicacion .enlace-paginacion:hover{
+    text-decoration: underline;
+}
